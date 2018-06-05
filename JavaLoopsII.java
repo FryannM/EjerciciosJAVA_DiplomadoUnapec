@@ -3,12 +3,12 @@ import java.io.*;
 
 class Solution{
   public static void main(String []argh){
-        Scanner in = new Scanner(System.in);
-        int t=in.nextInt();
+        Scanner scan = new Scanner(System.in);
+        int t= scan.nextInt();
         for(int i=0;i<t;i++){
-            int a = in.nextInt();
-            int b = in.nextInt();
-            int n = in.nextInt();
+            int a = scan.nextInt();
+            int b = scan.nextInt();
+            int n = scan.nextInt();
         
             int count = 0;
             int constant = 0;
@@ -24,7 +24,7 @@ class Solution{
                 }
                 System.out.print (sum + " ");
                 count += 1;
-            }//end while
+            }
         System.out.println();
         
         
